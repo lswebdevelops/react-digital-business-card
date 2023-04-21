@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-digital-business-card/static/css/main.73401586.css",
+    "main.js": "/react-digital-business-card/static/js/main.54f4606c.js",
+    "static/media/lanlin.jpg": "/react-digital-business-card/static/media/lanlin.670c41e42eab132ec39d.jpg",
+    "index.html": "/react-digital-business-card/index.html",
+    "main.73401586.css.map": "/react-digital-business-card/static/css/main.73401586.css.map",
+    "main.54f4606c.js.map": "/react-digital-business-card/static/js/main.54f4606c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73401586.css",
+    "static/js/main.54f4606c.js"
+  ]
+}
