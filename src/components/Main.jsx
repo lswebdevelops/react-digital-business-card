@@ -10,10 +10,10 @@ class Main extends React.Component{
                 <img
                 className="img-container-main"
                 src={image_photo}
-                alt="phone of a woman"/>
-                <h1 className="h1-container-main">Lan Lin</h1>
-                <h2 className="h2-container-main">Frontend Developer</h2>
-                <h3 className="h3-container-main">@lanlin.webdev</h3>
+                alt="woman"/>
+                <h1 className="h1-container-main">{this.props.name}</h1>
+                <h2 className="h2-container-main">{this.props.job}</h2>
+                <h3 className="h3-container-main">{this.props.contact}</h3>
                 <button className="btn-container-main">
                 <GrMail className="icon-mail-main" />
                 <a className="a-mail-main" href="https://mail.google.com/mail/" target="__blank">Email</a></button>

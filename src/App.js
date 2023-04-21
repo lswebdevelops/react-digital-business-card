@@ -1,11 +1,16 @@
 import './App.css';
 import Main from './components/Main';
-import About from './components/About'
+import About from './components/About';
+import React from 'react';
 
-function App() {
+class App extends React.Component{
+  render(){
   return (
     <div className="App">
-      <Main />
+      <Main
+      name="Lan Lin"
+      job="Frontend Developer"
+      contact="@lanlin.webdev" />
       <About
       about="Lan Lin is a web developer with expertise in creating dynamic and responsive web applications. She is constantly expanding her knowledge and skills in different programming languages and frameworks to stay up-to-date with the latest industry trends.
       "
@@ -14,5 +19,5 @@ function App() {
     </div>
   );
 }
-
+};
 export default App;
