@@ -10,14 +10,9 @@ class About extends React.Component{
                 <div className="in-about-container">
                 <h3 className="h3-about">About</h3>
                     <p
-                     className="p-h3-about">
-                        Lan Lin is a web developer with expertise in creating dynamic and responsive web applications. She is constantly expanding her knowledge and skills in different programming languages and frameworks to stay up-to-date with the latest industry trends.
-                         </p>
+                     className="p-h3-about">{this.props.about}</p>
                 <h3 className="h3-interests">Interests</h3>
-                    <p 
-                    className="p-h3-interests">
-                        When she's not coding, Lan enjoys exploring new cultures through travel, reading, and staying informed on industry news and technology advancements.
-                         </p>
+                    <p className="p-h3-interests">{this.props.interests}</p>
                          <footer>
                             <div className="div-footer">
                             <FaTwitterSquare />
