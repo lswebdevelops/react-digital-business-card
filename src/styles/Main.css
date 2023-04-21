@@ -1,0 +1,63 @@
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(31, 33, 37);
+    margin: auto;
+    margin-left: 10%;
+    margin-top: 35px;
+    margin-right: 10%;
+
+}
+.in-main-container{
+    width: 400px;
+    margin-top: 50px;
+    background-color: rgb(23, 25, 29);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.img-container-main{
+    width: 400px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: 0 2px 4px rgba(120,120,120,0.4); 
+    
+}
+
+.h1-container-main{
+color: aliceblue;
+}
+
+
+.h2-container-main{
+    color: grey;
+}
+
+
+
+.h3-container-main{
+    color: beige;
+}
+
+
+
+.btn-container-main{
+    color: black;
+    font-weight: 500;
+    font-size: large;
+    width: 350px;
+    height: 45px;
+    margin-top: 15px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+.icon-mail-main{
+   font-size: 15px;
+   padding-right: 8px;
+
+}
+.a-mail-main{
+    text-decoration: none;
+    color: black;
+}

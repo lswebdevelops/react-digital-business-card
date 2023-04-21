@@ -1,0 +1,49 @@
+.about-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(31, 33, 37);
+    margin: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+   
+}
+.about-container h3{
+    color: aliceblue;
+    padding-left: 25px;
+}
+
+.about-container p{
+    color: grey;
+    padding-left: 25px;
+
+}
+.in-about-container{
+    width: 400px;
+    padding-top: 50px;
+    background-color: rgb(23, 25, 29);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.p-h3-about{
+    padding-bottom: 15px;
+    padding-right: 10px;
+}
+.p-h3-interests{
+    padding-bottom: 15px;
+    padding-right: 30px;
+
+}
+
+.div-footer{
+    height: 90px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    width: 375px;
+    font-size: 45px;
+    color: gray;
+    justify-content: space-around;
+    
+}
